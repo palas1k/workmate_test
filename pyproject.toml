@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "workmate-test"
+version = "0.1.0"
+description = ""
+authors = ["palas1k <liserg008@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+sqlalchemy = "^2.0.35"
+alembic = "^1.13.3"
+psycopg2-binary = "^2.9.9"
+dynaconf = "^3.2.6"
+adaptix = "^3.0.0b8"
+asyncpg = "^0.29.0"
+sqlalchemy-utils = "^0.41.2"
+dishka = "^1.3.0"
+orjson = "^3.10.7"
+uvicorn = "^0.31.0"
+asyncio = "^3.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
